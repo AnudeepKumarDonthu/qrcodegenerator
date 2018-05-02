@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html ng-app="mainapp">
+<head>
+<meta charset="ISO-8859-1">
+<title>Home Page</title>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+<script src="../js/qrscript.js"></script>
+<link href="../css/qrstyle.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body ng-controller="maincontroller">
+	<h1 class="headding">Welcome to QR Code Generator Application</h1>
+	<div>
+		<table class="contentytable">
+			<tr>
+				<td>QR Code File Name :</td>
+				<td><input class="form-control" type="text"
+					ng-model="qrfilename" placeholder="QR file name" required="required"></td>
+			</tr>
+			<tr>
+			<td>Email Id :</td>
+				<td><input class="form-control" type="email" ng-model="email"
+					placeholder="Email Id" required="required"></td>
+			</tr>
+			<tr>
+				<td>QR Code Content :</td>
+				<td><textarea class="form-control" rows="10"
+						placeholder="QR Code content" ng-model="qrdata" required="required"></textarea></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" ng-click="navigate('generateqr')"
+					class="btn-info" style="border-radius: 3px; padding: 7px"
+					value="Generate QR Code"></td>
+			</tr>
+			<tr ng-show="flag">
+			<td></td>
+			<td style="color: green;">Your QR Code Emailed to your email Id</td>
+			</tr>
+		</table>
+	</div>
+	<!-- <div class="qrdiv">
+		<table>
+			<tr>
+				<td>Your QR Code :</td>
+				<td><img alt="QR Code" src="D:\qrfile\test1.jpg"></td>
+			</tr>
+		</table>
+	</div> -->
+</body>
+</html>
