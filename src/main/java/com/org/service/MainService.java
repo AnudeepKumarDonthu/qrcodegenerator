@@ -40,7 +40,7 @@ public class MainService {
 
 	public FinalResponse generateQR(InputFromUI inputFromUI) {
 		FinalResponse finalResponse= new FinalResponse();
-		String qrFilePath="D:\\qrfile\\"+inputFromUI.getFilename()+".jpg";
+		String qrFilePath="C:\\qrfile\\"+inputFromUI.getFilename()+".jpg";
 		ByteArrayOutputStream outData=QRCode.from(inputFromUI.getQrdata()).to(ImageType.JPG).stream();
 		File file= new File(qrFilePath);
 		try {
