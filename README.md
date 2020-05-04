@@ -12,3 +12,4 @@ It contain 3 Simple APIs
 
 Home Page:
 -----------
+https://github.com/AnudeepKumarDonthu/qrcodegenerator/blob/master/home_sample.JPG
