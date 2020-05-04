@@ -26,7 +26,7 @@ import net.glxn.qrgen.QRCode;
 import net.glxn.qrgen.image.ImageType;
 
 /**
- * @author M1041175
+ * @author Anudeep Kumar
  *
  */
 @Service
