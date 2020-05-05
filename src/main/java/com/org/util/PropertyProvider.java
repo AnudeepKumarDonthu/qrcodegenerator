@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.org.utility;
+package com.org.util;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;

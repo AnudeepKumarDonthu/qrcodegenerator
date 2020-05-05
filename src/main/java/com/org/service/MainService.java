@@ -20,7 +20,7 @@ import org.springframework.stereotype.Service;
 import com.org.model.FinalResponse;
 import com.org.model.InputFromUI;
 import com.org.repository.MainRepository;
-import com.org.utility.PropertyProvider;
+import com.org.util.PropertyProvider;
 
 import net.glxn.qrgen.QRCode;
 import net.glxn.qrgen.image.ImageType;
@@ -43,9 +43,7 @@ public class MainService {
 
 	public FinalResponse generateQR(InputFromUI inputFromUI) {
 		FinalResponse finalResponse = new FinalResponse();
-		System.out.println("------------------------");
 		String osName = System.getProperty("os.name").toLowerCase();
-		System.out.println("------------------------");
 		if (osName.contains("win")) {
 			File qrFileLocation = new File(propertyProvider.getProperty("app.qr.file.location.windows"));
 			qrFileLocation.mkdir();

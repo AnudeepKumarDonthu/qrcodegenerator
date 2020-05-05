@@ -17,13 +17,12 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.6.RELEASE</version>
+		<version>2.1.12.RELEASE</version>
 	</parent>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
@@ -34,6 +33,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-core</artifactId>
+		</dependency>
+
 		<!-- JSON Dependency -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
@@ -71,8 +75,8 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
+					<source>1.11</source>
+					<target>1.11</target>
 					<encoding>UTF-8</encoding>
 					<verbose>true</verbose>
 					<showDeprecation>true</showDeprecation>

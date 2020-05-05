@@ -4,7 +4,7 @@
 package com.org.model;
 
 /**
- * @author M1041175
+ * @author Anudeep Kumar
  *
  */
 public class InputFromUI {
