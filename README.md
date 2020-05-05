@@ -1,5 +1,8 @@
 # qrcodegenerator
 
+Java Version : 1.11
+Spring Boot Version : 2.1.12.RELEASE
+
 Simple Application which is developed using Springboot and Angularjs
 
 It contain 3 Simple APIs
