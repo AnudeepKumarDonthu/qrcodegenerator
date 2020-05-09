@@ -1,6 +1,7 @@
-com\org\repository\MainRepository.class
 com\org\qrgenerator\App.class
 com\org\model\FinalResponse.class
 com\org\model\InputFromUI.class
 com\org\service\MainService.class
+com\org\util\PropertyProvider.class
+com\org\repository\MainRepository.class
 com\org\controller\MainController.class

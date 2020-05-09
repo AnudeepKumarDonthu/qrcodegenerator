@@ -1,6 +1,7 @@
-C:\Users\AnudeepKumar\Downloads\QRGenerator\QRGenerator\src\main\java\com\org\model\FinalResponse.java
-C:\Users\AnudeepKumar\Downloads\QRGenerator\QRGenerator\src\main\java\com\org\repository\MainRepository.java
-C:\Users\AnudeepKumar\Downloads\QRGenerator\QRGenerator\src\main\java\com\org\controller\MainController.java
-C:\Users\AnudeepKumar\Downloads\QRGenerator\QRGenerator\src\main\java\com\org\service\MainService.java
-C:\Users\AnudeepKumar\Downloads\QRGenerator\QRGenerator\src\main\java\com\org\model\InputFromUI.java
-C:\Users\AnudeepKumar\Downloads\QRGenerator\QRGenerator\src\main\java\com\org\qrgenerator\App.java
+C:\Users\Anudeep Kumar\github_code\qrcode_generator\qrcodegenerator\src\main\java\com\org\model\InputFromUI.java
+C:\Users\Anudeep Kumar\github_code\qrcode_generator\qrcodegenerator\src\main\java\com\org\model\FinalResponse.java
+C:\Users\Anudeep Kumar\github_code\qrcode_generator\qrcodegenerator\src\main\java\com\org\repository\MainRepository.java
+C:\Users\Anudeep Kumar\github_code\qrcode_generator\qrcodegenerator\src\main\java\com\org\controller\MainController.java
+C:\Users\Anudeep Kumar\github_code\qrcode_generator\qrcodegenerator\src\main\java\com\org\util\PropertyProvider.java
+C:\Users\Anudeep Kumar\github_code\qrcode_generator\qrcodegenerator\src\main\java\com\org\qrgenerator\App.java
+C:\Users\Anudeep Kumar\github_code\qrcode_generator\qrcodegenerator\src\main\java\com\org\service\MainService.java

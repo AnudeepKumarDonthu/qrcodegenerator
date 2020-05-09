@@ -20,7 +20,7 @@ https://github.com/AnudeepKumarDonthu/qrcodegenerator/blob/master/homescreen.JPG
 
 Instruction to Use The Application
 -----------------------------------
-1) Download and Install java version 1.11 from official oracle website https://www.oracle.com/java/technologies/javase-jdk11-downloads.html
+1) Download and Install java version 1.8 from official oracle website https://www.oracle.com/java/technologies/javase-jdk8-downloads.html
 Note : Check the latest Oracle JDK License policies
 2) Check out the code
 3) update application.properties file with your email ID and password used to send email to the QR code recipient
